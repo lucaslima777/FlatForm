@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.example.lucaslima.flatform.CheckBox.CheckableButton
+        android:id="@+id/checkbox_basic_button"
+        android:layout_width="@dimen/checkbox_layout_width"
+        android:layout_height="@dimen/checkbox_layout_height"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_span="1"
+        app:cb_checkedBorderColor="@color/checkbox_checked"
+        app:cb_checkedColor="@color/checkbox_checked"
+        app:cb_radius="@dimen/checkbox_radius"
+        app:cb_text=""
+        app:cb_unCheckBorderColor="@color/checkbox_not_checked"
+        app:cb_unCheckColor="@color/checkbox_not_checked">
+
+        <ImageView
+            android:id="@+id/tick"
+            android:layout_width="@dimen/checkbox_stick_layout_width"
+            android:layout_height="@dimen/checkbox_stick_layout_height"
+            android:layout_marginBottom="@dimen/checkbox_stick_layout_marginBottom"
+            android:src="@drawable/tick"
+            android:visibility="invisible" />
+
+    </com.example.lucaslima.flatform.CheckBox.CheckableButton>
+
+</android.support.constraint.ConstraintLayout>

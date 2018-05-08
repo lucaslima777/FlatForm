@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title -->
+    <dimen name="text_title_size">25sp</dimen>
+    <dimen name="text_title_padding_bottom">20dp</dimen>
+    <dimen name="text_title_padding_top">15dp</dimen>
+
+    <!-- constraint -->
+    <dimen name="constraint_layout_width">315dp</dimen>
+    <dimen name="constraint_layout_margin_start_1">60dp</dimen>
+    <dimen name="constraint_layout_margin_start_2">120dp</dimen>
+    <dimen name="constraint_layout_margin_start_3">180dp</dimen>
+    <dimen name="constraint_layout_margin_start_4">50dp</dimen>
+    <dimen name="constraint_layout_margin_start_5">100dp</dimen>
+    <dimen name="constraint_layout_margin_start_6">150dp</dimen>
+    <dimen name="constraint_layout_margin_top_1">15dp</dimen>
+    <dimen name="constraint_layout_margin_top_2">25dp</dimen>
+
+    <!-- text -->
+    <dimen name="text_layout_margin_top">5dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+
+    <!-- switch -->
+    <dimen name="switch_layout_width">50dp</dimen>
+    <dimen name="switch_layout_marginTop">10dp</dimen>
+    <dimen name="switch_scrollbarSize">2dp</dimen>
+    <dimen name="switch_layout_marginStart">10dp</dimen>
+
+    <!-- checkbox -->
+    <dimen name="checkbox_layout_width">30dp</dimen>
+    <dimen name="checkbox_layout_height">30dp</dimen>
+    <dimen name="checkbox_radius">5dp</dimen>
+    <dimen name="checkbox_layout_marginStart">20dp</dimen>
+    <dimen name="checkbox_stick_layout_width">40dp</dimen>
+    <dimen name="checkbox_stick_layout_height">20dp</dimen>
+    <dimen name="checkbox_stick_layout_marginBottom">20dp</dimen>
+    <dimen name="checkbox_circle_radius">15dp</dimen>
+
+    <!-- div -->
+    <dimen name="div1_layout_height">3dp</dimen>
+    <dimen name="div1_layout_marginTop">20dp</dimen>
+    <dimen name="div2_layout_height">6dp</dimen>
+    <dimen name="div2_layout_marginTop">20dp</dimen>
+
+
+</resources>

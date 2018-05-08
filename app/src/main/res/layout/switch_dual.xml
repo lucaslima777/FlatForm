@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.rm.rmswitch.RMSwitch
+        android:id="@+id/switch_dual_button"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="2dp"
+        android:elevation="10dp"
+        android:padding="1dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="6dp"
+        android:paddingTop="2dp"
+        app:checked="false"
+        app:layout_constraintCircleRadius="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:switchBkgCheckedColor="@color/switch_background"
+        app:switchBkgNotCheckedColor="@color/switch_background"
+        app:switchToggleCheckedColor="@color/checkbox_checked"
+        app:switchToggleNotCheckedColor="@color/switch_not_checked" />
+
+    <com.rm.rmswitch.RMSwitch
+        android:id="@+id/switch55"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:padding="2dp"
+        android:paddingEnd="13dp"
+        android:paddingStart="7dp"
+        app:checked="false"
+        app:layout_constraintCircleRadius="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:switchBkgCheckedColor="@color/switch_border"
+        app:switchBkgNotCheckedColor="@color/switch_border"
+        app:switchToggleCheckedColor="@color/switch_border"
+        app:switchToggleNotCheckedColor="@color/switch_border" />
+
+</android.support.constraint.ConstraintLayout>

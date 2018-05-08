@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background">#2c3e50</color>
+    <color name="TextColor">#fff</color>
+    <color name="div1">#34495e</color>
+    <color name="div2">#3498db</color>
+
+    <!-- Switch -->
+    <color name="CheckBoxBackGround">#333</color>
+    <color name="switch_not_checked">#e74c3c</color>
+    <color name="switch_checked">#27ae60</color>
+
+    <!-- ChechBox-->
+    <color name="checkbox_not_checked">#e74c3c</color>
+    <color name="checkbox_checked">#27ae60</color>
+    <color name="checkbox_border">#e74c3c</color>
+    <color name="checkbox_background">#c0392b</color>
+    <color name="checkbox_border_checked">#27ae60</color>
+    <color name="checkbox_background_checked">#2ecc71</color>
+
+    <!-- Switch_border -->
+    <color name="switch_border">#ecf0f1</color>
+    <color name="switch_background">#bdc3c7</color>
+
+    <!-- EditText-->
+    <color name="edittext_backgorund">#34495e</color>
+    <color name="edittext_text">#ecf0f1</color>
+
+    <!-- Spinner -->
+    <color name="expansion_panel">#bdc3c7</color>
+    <color name="panel_expand">#344956</color>
+
+</resources>

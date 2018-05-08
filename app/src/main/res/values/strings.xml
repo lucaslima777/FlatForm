@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlatForm</string>
+    <string name="app_title">flat form</string>
+    <string name="app_checkbox">checkbox</string>
+    <string name="app_radio">radio</string>
+    <string name="app_edit_text">edittext</string>
+    <string name="app_text_area">textarea</string>
+</resources>

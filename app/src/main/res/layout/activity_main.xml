@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constraint_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abeezee_regular"
+            android:paddingBottom="@dimen/text_title_padding_bottom"
+            android:paddingTop="@dimen/text_title_padding_top"
+            android:text="@string/app_title"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/text_title_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_2"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title">
+
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_basic_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/switch_basic_1"
+                    layout="@layout/switch_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_basic_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_1"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_basic_2"
+                    layout="@layout/switch_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_basic_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_2"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_basic_3"
+                    layout="@layout/switch_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_basic_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_3"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_basic_4"
+                    layout="@layout/switch_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abeezee_regular"
+                android:text="@string/app_checkbox"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@+id/constraint_switch_basic_4"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_1"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div1_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_2" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_3"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_1">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_basic_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/switch_basic_5"
+                    layout="@layout/switch_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_basic_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_1"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_basic_6"
+                    layout="@layout/switch_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_basic_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_2"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_basic_7"
+                    layout="@layout/switch_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_basic_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_3"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_basic_8"
+                    layout="@layout/switch_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abeezee_regular"
+                android:text="@string/app_radio"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@+id/constraint_switch_basic_8"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_2"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div2_layout_height"
+            android:layout_marginTop="@dimen/div2_layout_marginTop"
+            android:background="@color/div2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_3" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_4"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_2">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_basic_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/checkbox_basic_1"
+                    layout="@layout/checkbox_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_basic_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_4"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_basic_2"
+                    layout="@layout/checkbox_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_basic_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_5"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_basic_3"
+                    layout="@layout/checkbox_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_basic_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_6"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_basic_4"
+                    layout="@layout/checkbox_basic" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_layout_margin_top"
+                android:fontFamily="@font/abeezee_regular"
+                android:text="@string/app_checkbox"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@+id/constraint_checkbox_basic_4"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_3"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div1_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_4" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_5"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_3">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_circle_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/checkbox_circle_1"
+                    layout="@layout/checkbox_circle" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_circle_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_4"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_circle_2"
+                    layout="@layout/checkbox_circle" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_circle_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_5"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_circle_3"
+                    layout="@layout/checkbox_circle" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_circle_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_6"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_circle_4"
+                    layout="@layout/checkbox_circle" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_layout_margin_top"
+                android:fontFamily="@font/abeezee_regular"
+                android:text="@string/app_radio"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@+id/constraint_checkbox_circle_4"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_4"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div2_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_5" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_6"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_4">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_dual_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/switch_dual_1"
+                    layout="@layout/switch_dual" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_dual_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_1"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_dual_2"
+                    layout="@layout/switch_dual" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_dual_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_2"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_dual_3"
+                    layout="@layout/switch_dual" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_dual_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_3"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_dual_4"
+                    layout="@layout/switch_dual" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_layout_margin_top"
+                android:fontFamily="@font/abeezee_regular"
+                android:text="@string/app_checkbox"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@+id/constraint_switch_dual_4"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_5"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div1_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_6" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_7"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_5">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_dual_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/switch_dual_5"
+                    layout="@layout/switch_dual" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_dual_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_1"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_dual_6"
+                    layout="@layout/switch_dual" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_dual_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_2"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_dual_7"
+                    layout="@layout/switch_dual" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_switch_dual_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_3"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/switch_dual_8"
+                    layout="@layout/switch_dual" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_layout_margin_top"
+                android:fontFamily="@font/abeezee_regular"
+                android:text="@string/app_radio"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@+id/constraint_switch_dual_8"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_6"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div2_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_7" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_8"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_6">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_border_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/checkbox_border_1"
+                    layout="@layout/checkbox_border" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_border_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_4"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_border_2"
+                    layout="@layout/checkbox_border" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_border_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_5"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_border_3"
+                    layout="@layout/checkbox_border" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_border_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_6"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_border_4"
+                    layout="@layout/checkbox_border" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_layout_margin_top"
+                android:fontFamily="@font/abeezee_regular"
+                android:text="@string/app_checkbox"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@+id/constraint_checkbox_border_4"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_7"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div1_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_8" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_9"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_7">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_border_circle_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/checkbox_border_circle_1"
+                    layout="@layout/checkbox_border_circle" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_border_circle_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_4"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_border_circle_2"
+                    layout="@layout/checkbox_border_circle" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_border_circle_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_5"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_border_circle_3"
+                    layout="@layout/checkbox_border_circle" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_checkbox_border_circle_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/constraint_layout_margin_start_6"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/checkbox_border_circle_4"
+                    layout="@layout/checkbox_border_circle" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_layout_margin_top"
+                android:fontFamily="@font/abeezee_regular"
+                android:text="@string/app_radio"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@+id/constraint_checkbox_border_circle_4"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_8"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div2_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_9" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_10"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_8">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/text_view"
+                    layout="@layout/edit_text" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_9"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div1_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_10" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_11"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_9">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_text_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/text_area"
+                    layout="@layout/text_area" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_10"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div1_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_11" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_12"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_10">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_expansion_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/expansion_panels"
+                    layout="@layout/expansion_panels" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_11"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div2_layout_height"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_12" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_13"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/constraint_layout_margin_top_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div_11">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/button_view"
+                    layout="@layout/button_view" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/div_12"
+            android:layout_width="@dimen/constraint_layout_width"
+            android:layout_height="@dimen/div2_layout_height"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="@dimen/div1_layout_marginTop"
+            android:background="@color/div2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_13" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
